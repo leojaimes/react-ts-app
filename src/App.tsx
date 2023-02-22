@@ -4,10 +4,14 @@ import { NotFound } from './pages/NotFound';
 
 export function App() {
   return (
-    <Routes>
+    <div>
+      {/**  <Routes>
       <Route path="/" element={<Home />} />
       <Route path="*" element={<NotFound />} />
-    </Routes>
+    </Routes> */}
+      <h1>Hello World</h1>
+    </div>
+
   );
 }
 
