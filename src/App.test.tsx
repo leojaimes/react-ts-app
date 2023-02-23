@@ -1,4 +1,4 @@
-/* eslint-disable prettier/prettier */
+/// * eslint-disable prettier/prettier */
 import { describe, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
@@ -28,3 +28,5 @@ describe('App', () => {
   // ).toHaveTextContent('Not Found');
  });
 });
+
+// https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-eslint-delete-cr-prettier-prettier

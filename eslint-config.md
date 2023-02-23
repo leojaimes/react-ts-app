@@ -59,3 +59,8 @@ yarn add --dev @testing-library/react
 yarn add --dev @testing-library/jest-dom
 
 basada en https://www.youtube.com/watch?v=cchqeWY0Nak
+
+
+Revisar que visual studio code tenga activada LF en lugar de CRLF
+ver el siguiente enlace:
+https://stackoverflow.com/questions/53516594/why-do-i-keep-getting-eslint-delete-cr-prettier-prettier
