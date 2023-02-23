@@ -3,21 +3,21 @@ import { Home } from './pages/Home';
 import { NotFound } from './pages/NotFound';
 
 export function App() {
-  return (
-    <div>
-      {/**  <Routes>
+ return (
+  <div>
+   {/**  <Routes>
       <Route path="/" element={<Home />} />
       <Route path="*" element={<NotFound />} />
     </Routes> */}
-      <h1>Hello World</h1>
-    </div>
-  );
+   <h1>Hello World</h1>
+  </div>
+ );
 }
 
 export function WrappedApp() {
-  return (
-    <HashRouter>
-      <App />
-    </HashRouter>
-  );
+ return (
+  <HashRouter>
+   <App />
+  </HashRouter>
+ );
 }
